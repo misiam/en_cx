@@ -1,0 +1,246 @@
+{
+	"garglSchemaVersion": "1.0",
+	"moduleVersion": "1.0",
+	"moduleName": "SeparateFunctonality",
+	"moduleDescription": "",
+	"functions": [
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/NameCommentEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/NameCommentEdit.aspx?action=view&gid=25186&level=1&refresh=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "level",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "25186"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "848335",
+			"functionName": "EditLevelName",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/NameCommentEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/NameCommentEdit.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "level",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "25186"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtLevelName",
+						"value": "@levelName@"
+					},
+					{
+						"description": "",
+						"name": "txtLevelComment",
+						"value": "@levelDescription@"
+					},
+					{
+						"description": "",
+						"name": "btnUpdate.x",
+						"value": "31"
+					},
+					{
+						"description": "",
+						"name": "btnUpdate.y",
+						"value": "10"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "848335",
+			"functionName": "EditLevelNameSave",
+			"functionDescription": ""
+		}
+	]
+}

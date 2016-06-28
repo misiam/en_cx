@@ -1,0 +1,4099 @@
+{
+	"garglSchemaVersion": "1.0",
+	"moduleVersion": "1.0",
+	"moduleName": "CommonFunctionality",
+	"moduleDescription": "",
+	"functions": [
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Login.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Default.aspx"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"name": "return",
+						"value": "/Default.aspx",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "71556",
+			"functionName": "OpenLogin"
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Login.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Login.aspx?return=%2fDefault.aspx"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "return",
+						"value": "/Default.aspx"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "socialAssign",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "Login",
+						"value": "@username@"
+					},
+					{
+						"description": "",
+						"name": "Password",
+						"value": "@password@"
+					},
+					{
+						"description": "",
+						"name": "EnButton1",
+						"value": "Вход"
+					},
+					{
+						"description": "",
+						"name": "ddlNetwork",
+						"value": "1"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "71556",
+			"functionName": "LoginPost",
+			"functionDescription": "ocialAssign:  0  Login:  user_login  Password:  user_password  EnButton1:  Вход  ddlNetwork:  1 "
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Login.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Login.aspx?return=%2fDefault.aspx"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					}
+				],
+				"queryString": [
+					{
+						"name": "return",
+						"value": "/Default.aspx",
+						"description": ""
+					},
+					{
+						"name": "checkcookie",
+						"value": "1",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "71556",
+			"functionName": "LoginRedirect"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/AdminPanel.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Default.aspx"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": []
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "76104",
+			"functionName": "OpenGameAdminPage"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/GameCreate.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/AdminPanel.aspx"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"name": "type",
+						"value": "own",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79112",
+			"functionName": "GameCreateChoosing"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/GameCreate.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameCreate.aspx?type=own"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gametypeid",
+						"value": "@gameType@"
+					},
+					{
+						"description": "",
+						"name": "type",
+						"value": "own"
+					},
+					{
+						"description": "",
+						"name": "gamezonelist",
+						"value": "@gameZone@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79112",
+			"functionName": "GameCreateChooseSingle",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/GameCreate.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameCreate.aspx?gametypeid=0&type=own&gamezonelist=0"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [],
+				"postData": [
+					{
+						"description": "",
+						"name": "GameTitle",
+						"value": "@gameTitle@"
+					},
+					{
+						"description": "",
+						"name": "action",
+						"value": "@action@"
+					},
+					{
+						"description": "",
+						"name": "GameZoneList",
+						"value": "@gameZoneList@"
+					},
+					{
+						"description": "",
+						"name": "GameTypeID",
+						"value": "@gameTypeID@"
+					},
+					{
+						"description": "",
+						"name": "GameAuthors",
+						"value": "@gameAutorsByCommas@"
+					},
+					{
+						"description": "",
+						"name": "Fee",
+						"value": "@fee@"
+					},
+					{
+						"description": "",
+						"name": "FeeCurrency",
+						"value": "@feeCurrency@"
+					},
+					{
+						"description": "",
+						"name": "FeeName",
+						"value": "@feeName@"
+					},
+					{
+						"description": "",
+						"name": "Prize",
+						"value": "@prize@"
+					},
+					{
+						"description": "",
+						"name": "StartDateTime",
+						"value": "@startDateTime@"
+					},
+					{
+						"description": "",
+						"name": "FinishDateTime",
+						"value": "@finishDateTime@"
+					},
+					{
+						"description": "",
+						"name": "RequestLastDate",
+						"value": "@requestLastDate@"
+					},
+					{
+						"description": "",
+						"name": "IsModerated",
+						"value": "@isModerated@"
+					},
+					{
+						"description": "",
+						"name": "Descr",
+						"value": "@descriptionHtml@"
+					},
+					{
+						"description": "",
+						"name": "Tabs1_tabsContent_baseSettings_vp0",
+						"value": "Tabs1_tabsContent_baseSettings_vp0"
+					},
+					{
+						"description": "",
+						"name": "GameStatAvailabilityList",
+						"value": "@gameStatAvailabilityList@"
+					},
+					{
+						"description": "",
+						"name": "GameScenarioAvailabilityList",
+						"value": "@gameScenarioAvailabilityList@"
+					},
+					{
+						"description": "",
+						"name": "chkShowFinishPlace",
+						"value": "@chkShowFinishPlace@"
+					},
+					{
+						"description": "",
+						"name": "MaxPlayers",
+						"value": "@maxPlayers@"
+					},
+					{
+						"description": "",
+						"name": "MaxTeamPlayers",
+						"value": "@maxTeamPlayers@"
+					},
+					{
+						"description": "",
+						"name": "ShowFeeList",
+						"value": "@showFeeList@"
+					},
+					{
+						"description": "",
+						"name": "FirstPlaces",
+						"value": "@firstPlaces@"
+					},
+					{
+						"description": "",
+						"name": "CertificateMode",
+						"value": "@certificateMode@"
+					},
+					{
+						"description": "",
+						"name": "NotFirstPlaces",
+						"value": "@notFirstPlaces@"
+					},
+					{
+						"description": "",
+						"name": "HideGameFromCalendar",
+						"value": "@hideGameFromCalendar@"
+					},
+					{
+						"description": "",
+						"name": "radioAcceptRateMode",
+						"value": "@radioAcceptRateMode@"
+					},
+					{
+						"description": "",
+						"name": "txtAcceptRateFrom",
+						"value": "@txtAcceptRateFrom@"
+					},
+					{
+						"description": "",
+						"name": "ddlAuthorsCompexity",
+						"value": "@ddlAuthorsCompexity@"
+					},
+					{
+						"description": "",
+						"name": "btnCreate.x",
+						"value": "38"
+					},
+					{
+						"description": "",
+						"name": "btnCreate.y",
+						"value": "5"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79311",
+			"functionName": "GameCreateChooseSinglePost",
+			"functionDescription": "time: 06.06.2016+22:00:00"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelManager.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameCreate.aspx?gametypeid=0&type=own&gamezonelist=0"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79311",
+			"functionName": "LevelManagement",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/GamesManager.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25161"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "action",
+						"value": "@actionName@"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79311",
+			"functionName": "DeleteGameConfirmation",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/GamesManager.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/GamesManager.aspx?action=confirm_delete&gid=25161"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "action",
+						"value": "@actionName@"
+					},
+					{
+						"description": "",
+						"name": "page",
+						"value": "@pageNumber@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79311",
+			"functionName": "DeleteGameConfirmed",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/GameCreate.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameCreate.aspx?type=own"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"name": "gametypeid",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"name": "type",
+						"value": "own",
+						"description": ""
+					},
+					{
+						"name": "gamezonelist",
+						"value": "0",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "79311",
+			"functionName": "GameCreateChooseTeam"
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/GameCreate.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameCreate.aspx?gametypeid=1&type=own&gamezonelist=0"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [],
+				"postData": [
+					{
+						"name": "GameTitle",
+						"value": "someGame",
+						"description": ""
+					},
+					{
+						"name": "action",
+						"value": "create",
+						"description": ""
+					},
+					{
+						"name": "GameZoneList",
+						"value": "0",
+						"description": ""
+					},
+					{
+						"name": "GameTypeID",
+						"value": "0",
+						"description": ""
+					},
+					{
+						"name": "GameAuthors",
+						"value": "dummy_user",
+						"description": ""
+					},
+					{
+						"name": "Fee",
+						"value": "0,00",
+						"description": ""
+					},
+					{
+						"name": "FeeCurrency",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"name": "FeeName",
+						"value": "Взнос+за+участие",
+						"description": ""
+					},
+					{
+						"name": "Prize",
+						"value": "50",
+						"description": ""
+					},
+					{
+						"name": "StartDateTime",
+						"value": "10.06.2016+22:00:00",
+						"description": ""
+					},
+					{
+						"name": "FinishDateTime",
+						"value": "11.06.2016+22:00:00",
+						"description": ""
+					},
+					{
+						"name": "RequestLastDate",
+						"value": "",
+						"description": ""
+					},
+					{
+						"name": "IsModerated",
+						"value": "true",
+						"description": ""
+					},
+					{
+						"name": "Descr",
+						"value": "",
+						"description": ""
+					},
+					{
+						"name": "Tabs1_tabsContent_baseSettings_vp0",
+						"value": "Tabs1_tabsContent_baseSettings_vp0",
+						"description": ""
+					},
+					{
+						"name": "cbIsGameShortDescrHided",
+						"value": "on",
+						"description": ""
+					},
+					{
+						"name": "GameAvailAfter",
+						"value": "true",
+						"description": ""
+					},
+					{
+						"name": "GameStatAvailabilityList",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"name": "GameScenarioAvailabilityList",
+						"value": "2",
+						"description": ""
+					},
+					{
+						"name": "chkShowFinishPlace",
+						"value": "true",
+						"description": ""
+					},
+					{
+						"name": "MaxPlayers",
+						"value": "0",
+						"description": ""
+					},
+					{
+						"name": "MaxTeamPlayers",
+						"value": "0",
+						"description": ""
+					},
+					{
+						"name": "ShowFeeList",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"name": "CertificateMode",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"name": "FirstPlaces",
+						"value": "3",
+						"description": ""
+					},
+					{
+						"name": "NotFirstPlaces",
+						"value": "3",
+						"description": ""
+					},
+					{
+						"name": "HideGameFromCalendar",
+						"value": "on",
+						"description": ""
+					},
+					{
+						"name": "radioAcceptRateMode",
+						"value": "1",
+						"description": ""
+					},
+					{
+						"name": "txtAcceptRateFrom",
+						"value": "06.06.2016+22:00:00",
+						"description": ""
+					},
+					{
+						"name": "ddlAuthorsCompexity",
+						"value": "10",
+						"description": ""
+					},
+					{
+						"name": "btnCreate.x",
+						"value": "36",
+						"description": ""
+					},
+					{
+						"name": "btnCreate.y",
+						"value": "3",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "157829",
+			"functionName": "GameCreate_Sample"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelManager.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameCreate.aspx?gametypeid=1&type=own&gamezonelist=0"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					}
+				],
+				"queryString": [
+					{
+						"name": "gid",
+						"value": "25186",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "157829",
+			"functionName": "LevelManager_Sample"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelManager.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "delfile",
+						"value": "@fileName@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "157829",
+			"functionName": "DeleteAttachedFIle",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelManager.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "sequences",
+						"value": "change"
+					},
+					{
+						"description": "",
+						"name": "ddlLevelsSequence",
+						"value": "@ddlLevelsSequence@"
+					},
+					{
+						"description": "",
+						"name": "btnLevelSequence.x",
+						"value": "21"
+					},
+					{
+						"description": "",
+						"name": "btnLevelSequence.y",
+						"value": "5"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "157829",
+			"functionName": "ChangeLevelSequence",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/GameEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "160652",
+			"functionName": "GameSettingsView",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/GameEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameEditor.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "action",
+						"value": "edit"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "160652",
+			"functionName": "GameSettingsEdit",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/GameEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/GameEditor.aspx?action=edit&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [],
+				"postData": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "action",
+						"value": "update"
+					},
+					{
+						"description": "",
+						"name": "GameTitle",
+						"value": "@gameTitle@"
+					},
+					{
+						"description": "",
+						"name": "GameAuthors",
+						"value": "@gameAutors@"
+					},
+					{
+						"description": "",
+						"name": "Fee",
+						"value": "@fee@"
+					},
+					{
+						"description": "",
+						"name": "FeeCurrency",
+						"value": "@feeCurrency@"
+					},
+					{
+						"description": "",
+						"name": "FeeName",
+						"value": "@feeName@"
+					},
+					{
+						"description": "",
+						"name": "Prize",
+						"value": "@prize@"
+					},
+					{
+						"description": "",
+						"name": "StartDateTime",
+						"value": "@startDateTime@"
+					},
+					{
+						"description": "",
+						"name": "FinishDateTime",
+						"value": "@finishDateTime@"
+					},
+					{
+						"description": "",
+						"name": "RequestLastDate",
+						"value": "@requestLastDate@"
+					},
+					{
+						"description": "",
+						"name": "IsModerated",
+						"value": "@isModerated@"
+					},
+					{
+						"description": "",
+						"name": "Descr",
+						"value": "@descriptionHtml@"
+					},
+					{
+						"description": "",
+						"name": "Tabs1_tabsContent_baseSettings_vp1",
+						"value": "Tabs1_tabsContent_baseSettings_vp1"
+					},
+					{
+						"description": "",
+						"name": "GameAvailAfter",
+						"value": "@gameAvailAfter@"
+					},
+					{
+						"description": "",
+						"name": "GameStatAvailabilityList",
+						"value": "@gameStatAvailabilityList@"
+					},
+					{
+						"description": "",
+						"name": "GameScenarioAvailabilityList",
+						"value": "@gameScenarioAvailabilityList@"
+					},
+					{
+						"description": "",
+						"name": "chkShowFinishPlace",
+						"value": "@chkShowFinishPlace@"
+					},
+					{
+						"description": "",
+						"name": "MaxPlayers",
+						"value": "@maxPlayers@"
+					},
+					{
+						"description": "",
+						"name": "ShowFeeList",
+						"value": "@showFeeList@"
+					},
+					{
+						"description": "",
+						"name": "CertificateMode",
+						"value": "@certificateMode@"
+					},
+					{
+						"description": "",
+						"name": "FirstPlaces",
+						"value": "@firstPlaces@"
+					},
+					{
+						"description": "",
+						"name": "NotFirstPlaces",
+						"value": "@notFirstPlaces@"
+					},
+					{
+						"description": "",
+						"name": "HideGameFromCalendar",
+						"value": "@hideGameFromCalendar@"
+					},
+					{
+						"description": "",
+						"name": "radioAcceptRateMode",
+						"value": "@radioAcceptRateMode@"
+					},
+					{
+						"description": "",
+						"name": "txtAcceptRateFrom",
+						"value": "@txtAcceptRateFrom@"
+					},
+					{
+						"description": "",
+						"name": "ddlAuthorsCompexity",
+						"value": "@ddlAuthorsCompexity@"
+					},
+					{
+						"description": "",
+						"name": "btnUpdate.x",
+						"value": "50"
+					},
+					{
+						"description": "",
+						"name": "btnUpdate.y",
+						"value": "10"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "160976",
+			"functionName": "GameSettingsConfirm",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "161559",
+			"functionName": "LevelEditor",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"name": "action",
+						"value": "AddNewLevel",
+						"description": ""
+					},
+					{
+						"name": "gid",
+						"value": "25186",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "161559",
+			"functionName": "LevelEditorAddNew"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"name": "action",
+						"value": "AddNewLevel",
+						"description": ""
+					},
+					{
+						"name": "gid",
+						"value": "25186",
+						"description": ""
+					},
+					{
+						"name": "level",
+						"value": "1",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "161559",
+			"functionName": "LevelEditorAddNewFrom1"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=4&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "161559",
+			"functionName": "LevelEditorSelectLevel",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/LevelInfo.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					},
+					{
+						"description": "",
+						"name": "object",
+						"value": "@objectNumber@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "848335",
+			"functionName": "AutoTransitionView",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "gameId"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "levelNumber"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtApHours",
+						"value": "@autoTransitionHours@"
+					},
+					{
+						"description": "",
+						"name": "txtApMinutes",
+						"value": "@autoTransitionMinutes@"
+					},
+					{
+						"description": "",
+						"name": "txtApSeconds",
+						"value": "@autoTransitionSeconds@"
+					},
+					{
+						"description": "",
+						"name": "chkTimeoutPenalty",
+						"value": "on"
+					},
+					{
+						"description": "",
+						"name": "txtApPenaltyHours",
+						"value": "@penaltyHours@"
+					},
+					{
+						"description": "",
+						"name": "txtApPenaltyMinutes",
+						"value": "@penaltyMinutes@"
+					},
+					{
+						"description": "",
+						"name": "txtApPenaltySeconds",
+						"value": "@penaltySeconds@"
+					},
+					{
+						"description": "",
+						"name": "ctl01_ctl00_ctl03.x",
+						"value": "54"
+					},
+					{
+						"description": "",
+						"name": "ctl01_ctl00_ctl03.y",
+						"value": "16"
+					},
+					{
+						"description": "",
+						"name": "updateautopass",
+						"value": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "910400",
+			"functionName": "AutoTransitionWithPenaltySave",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtApHours",
+						"value": "@autoTransitionHours@"
+					},
+					{
+						"description": "",
+						"name": "txtApMinutes",
+						"value": "@autoTransitionMinutes@"
+					},
+					{
+						"description": "",
+						"name": "txtApSeconds",
+						"value": "@autoTransitionSeconds@"
+					},
+					{
+						"description": "",
+						"name": "ctl01_ctl00_ctl03.x",
+						"value": "40"
+					},
+					{
+						"description": "",
+						"name": "ctl01_ctl00_ctl03.y",
+						"value": "17"
+					},
+					{
+						"description": "",
+						"name": "updateautopass",
+						"value": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "923615",
+			"functionName": "AutoTransitionSave",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtAttemptsNumber",
+						"value": "@attemptsNumber@"
+					},
+					{
+						"description": "",
+						"name": "txtAttemptsPeriodHours",
+						"value": "@attemptsPeriodHours@"
+					},
+					{
+						"description": "",
+						"name": "txtAttemptsPeriodMinutes",
+						"value": "@attemptsPeriodMinutes@"
+					},
+					{
+						"description": "",
+						"name": "txtAttemptsPeriodSeconds",
+						"value": "@attemptsPeriodSeconds@"
+					},
+					{
+						"description": "",
+						"name": "pnlSettings_AnswerBlockingSettings_ctl00_ctl08.x",
+						"value": "42"
+					},
+					{
+						"description": "",
+						"name": "pnlSettings_AnswerBlockingSettings_ctl00_ctl08.y",
+						"value": "8"
+					},
+					{
+						"description": "",
+						"name": "action",
+						"value": "upansblock"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "923615",
+			"functionName": "AttemptsBlock",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtAnswer_0",
+						"value": "@answer@"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_0",
+						"value": "@userId@"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_1",
+						"value": "ans2"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_1",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_2",
+						"value": "ans3"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_2",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_3",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_3",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_4",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_4",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_5",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_5",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_6",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_6",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_7",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_7",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_8",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_8",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_9",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_9",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "AnswersTable_ctl00_NewAnswerEditor_ctl00_btnSave.x",
+						"value": "35"
+					},
+					{
+						"description": "",
+						"name": "AnswersTable_ctl00_NewAnswerEditor_ctl00_btnSave.y",
+						"value": "7"
+					},
+					{
+						"description": "",
+						"name": "saveanswers",
+						"value": "1"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "936020",
+			"functionName": "AddAnswersAsSet",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1&swanswers=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "25186"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "swanswers",
+						"value": "1"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtSectorName",
+						"value": "@sectorName@"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_0",
+						"value": "@answer1@"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_0",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_1",
+						"value": "@answer2@"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_1",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_2",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_2",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_3",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_3",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_4",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_4",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_5",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_5",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_6",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_6",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_7",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_7",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_8",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_8",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_9",
+						"value": ""
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_9",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "btnSaveSector.x",
+						"value": "16"
+					},
+					{
+						"description": "",
+						"name": "btnSaveSector.y",
+						"value": "11"
+					},
+					{
+						"description": "",
+						"name": "savesector",
+						"value": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "936020",
+			"functionName": "AddAnswersAsSector",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/LevelInfo.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1&swanswers=1"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "object",
+						"value": "@objectNumber@"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					},
+					{
+						"description": "",
+						"name": "sector",
+						"value": "@sectorNumber@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "936020",
+			"functionName": "EditAnswersAsSectorView",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1&swanswers=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "txtAnswer_407907",
+						"value": "ans1"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_407907",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "chkDeleteAnswer_407908",
+						"value": "407908"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_407908",
+						"value": "ans2"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_407908",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "txtAnswer_407909",
+						"value": "ans3"
+					},
+					{
+						"description": "",
+						"name": "ddlAnswerFor_407909",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "btnDelete.x",
+						"value": "44"
+					},
+					{
+						"description": "",
+						"name": "btnDelete.y",
+						"value": "11"
+					},
+					{
+						"description": "",
+						"name": "updateanswers",
+						"value": "210196"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "936020",
+			"functionName": "DeleteAnswer",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/LevelEditor.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?gid=25186&level=1&swanswers=1"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					},
+					{
+						"description": "",
+						"name": "swanswers",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "delsector",
+						"value": "@sectorNumber@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "936020",
+			"functionName": "DeleteAnswersSector",
+			"functionDescription": ""
+		}
+	]
+}

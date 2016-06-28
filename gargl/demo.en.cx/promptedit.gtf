@@ -1,0 +1,666 @@
+{
+	"garglSchemaVersion": "1.0",
+	"moduleVersion": "1.0",
+	"moduleName": "PromptEditor",
+	"moduleDescription": "",
+	"functions": [
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/PromptEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/PromptEdit.aspx?gid=25186&level=5"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "ForMemberID",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutDays",
+						"value": "@newPromptTimeoutDays@"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutHours",
+						"value": "@newPromptTimeoutHours@"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutMinutes",
+						"value": "@newPromptTimeoutMinutes@"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutSeconds",
+						"value": "@newPromptTimeoutSeconds@"
+					},
+					{
+						"description": "",
+						"name": "NewPrompt",
+						"value": "@propmtText@"
+					},
+					{
+						"description": "",
+						"name": "btnAdd.x",
+						"value": "34"
+					},
+					{
+						"description": "",
+						"name": "btnAdd.y",
+						"value": "5"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "171612",
+			"functionName": "PromptCreate",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/PromptEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/PromptEdit.aspx?gid=25186&level=5"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "action",
+						"value": "OpenerReload"
+					},
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					},
+					{
+						"description": "",
+						"name": "prid",
+						"value": "@promptId@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "171612",
+			"functionName": "PromptView",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/PromptEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/PromptEdit.aspx?action=OpenerReload&gid=25186&level=5&prid=217995"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "action",
+						"value": "PromptEdit"
+					},
+					{
+						"description": "",
+						"name": "prid",
+						"value": "@promptId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "171612",
+			"functionName": "PromptEdit",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "POST",
+				"url": "http://demo.en.cx/Administration/Games/PromptEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Origin",
+						"value": "http://demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"description": "",
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/PromptEdit.aspx?gid=25186&action=PromptEdit&prid=217995&level=5"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "gid",
+						"value": "@gameId@"
+					},
+					{
+						"description": "",
+						"name": "action",
+						"value": "PromptEdit"
+					},
+					{
+						"description": "",
+						"name": "prid",
+						"value": "@promptId@"
+					},
+					{
+						"description": "",
+						"name": "level",
+						"value": "@levelNumber@"
+					}
+				],
+				"postData": [
+					{
+						"description": "",
+						"name": "ForMemberID",
+						"value": "0"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutDays",
+						"value": "@newPromptTimeoutDays@"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutHours",
+						"value": "@newPromptTimeoutHours@"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutMinutes",
+						"value": "@newPromptTimeoutMinutes@"
+					},
+					{
+						"description": "",
+						"name": "NewPromptTimeoutSeconds",
+						"value": "@newPromptTimeoutSeconds@"
+					},
+					{
+						"description": "",
+						"name": "NewPrompt",
+						"value": "@promptText@"
+					},
+					{
+						"description": "",
+						"name": "btnUpdate.x",
+						"value": "44"
+					},
+					{
+						"description": "",
+						"name": "btnUpdate.y",
+						"value": "5"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Location"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "171612",
+			"functionName": "PromptUpdate",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/Administration/Games/PromptEdit.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"name": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"name": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+					},
+					{
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/PromptEdit.aspx?gid=25186&action=PromptEdit&prid=217995&level=5"
+					},
+					{
+						"name": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"name": "Cache-Control",
+						"value": "max-age=0"
+					}
+				],
+				"queryString": [
+					{
+						"name": "gid",
+						"value": "25186",
+						"description": ""
+					},
+					{
+						"name": "action",
+						"value": "OpenerReload",
+						"description": ""
+					},
+					{
+						"name": "level",
+						"value": "5",
+						"description": ""
+					},
+					{
+						"name": "prid",
+						"value": "217995",
+						"description": ""
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "171612",
+			"functionName": ""
+		}
+	]
+}

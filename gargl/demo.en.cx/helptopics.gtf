@@ -1,0 +1,881 @@
+{
+	"garglSchemaVersion": "1.0",
+	"moduleVersion": "1.0",
+	"moduleName": "HelpTopics",
+	"moduleDescription": "",
+	"functions": [
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "ClassicCombatDescription"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "ClassicCombatDescriptionHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "TaskAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "TaskAddingHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "MessageAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "MessageAddingHelp",
+			"functionDescription": "wan't work"
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "PromptAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "PromptAddingHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "PenaltyPromptAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "PenaltyPromptAddingHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "BonusAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "BonusAddingHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelEditor.aspx?level=1&gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "AnswerAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "925152",
+			"functionName": "AnswerAddingHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "FileAdding"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "927832",
+			"functionName": "FileAddingHelp",
+			"functionDescription": ""
+		},
+		{
+			"request": {
+				"method": "GET",
+				"url": "http://demo.en.cx/ALoader/Help.aspx",
+				"httpVersion": "HTTP/1.1",
+				"headers": [
+					{
+						"description": "",
+						"name": "Accept-Encoding",
+						"value": "gzip, deflate, sdch"
+					},
+					{
+						"description": "",
+						"name": "Host",
+						"value": "demo.en.cx"
+					},
+					{
+						"description": "",
+						"name": "Accept-Language",
+						"value": "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4"
+					},
+					{
+						"description": "",
+						"name": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+					},
+					{
+						"description": "",
+						"name": "Accept",
+						"value": "*/*"
+					},
+					{
+						"description": "",
+						"name": "Referer",
+						"value": "http://demo.en.cx/Administration/Games/LevelManager.aspx?gid=25186"
+					},
+					{
+						"description": "",
+						"name": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"description": "",
+						"name": "Connection",
+						"value": "keep-alive"
+					}
+				],
+				"queryString": [
+					{
+						"description": "",
+						"name": "about",
+						"value": "LevelPassingSequence"
+					}
+				]
+			},
+			"response": {
+				"headers": [
+					{
+						"name": "Date"
+					},
+					{
+						"name": "Content-Encoding"
+					},
+					{
+						"name": "Server"
+					},
+					{
+						"name": "X-AspNet-Version"
+					},
+					{
+						"name": "X-Powered-By"
+					},
+					{
+						"name": "Vary"
+					},
+					{
+						"name": "Content-Type"
+					},
+					{
+						"name": "Cache-Control"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Set-Cookie"
+					},
+					{
+						"name": "Content-Length"
+					}
+				],
+				"fields": []
+			},
+			"connection": "927832",
+			"functionName": "LevelPassingSequenceHelp",
+			"functionDescription": ""
+		}
+	]
+}
