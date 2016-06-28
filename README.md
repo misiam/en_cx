@@ -1,1 +1,1 @@
-en_cx2
+en_cx
