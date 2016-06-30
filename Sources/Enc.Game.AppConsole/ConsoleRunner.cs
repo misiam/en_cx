@@ -1,4 +1,5 @@
 ﻿using Enc.Game.Manager.Clients;
+using Enc.Game.Manager.Interfaces;
 using Enc.Game.Manager.Requests;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,8 @@ namespace Enc.Game.AppConsole
                 await webRequestFactory.Login("dummy_user", "password123456");
                  client = webRequestFactory.Create<CommonFunctionalityClient>();
 
-                string lvlManagementResponse = await client.LevelManagement("25186");
+                IHttpClientContainer httpClient = await client.LevelManagement("25186");
+                string lvlManagementResponse = httpClient.GetResponseString();
                 Console.WriteLine("success");
             }
             catch(Exception exception)

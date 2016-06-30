@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enc.Game.Manager", "Enc.Gam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enc.Game.AppConsole", "Enc.Game.AppConsole\Enc.Game.AppConsole.csproj", "{8D1270C2-A44C-4662-9F81-A9255F16B82E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4E80386E-05F3-43D7-9394-A9E35ECBF0BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enc.Game.Manager.Tests", "Tests\Enc.Game.Manager.Tests\Enc.Game.Manager.Tests.csproj", "{6F68FFDB-21D8-4874-A351-EFF472DFE080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{8D1270C2-A44C-4662-9F81-A9255F16B82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1270C2-A44C-4662-9F81-A9255F16B82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1270C2-A44C-4662-9F81-A9255F16B82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F68FFDB-21D8-4874-A351-EFF472DFE080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F68FFDB-21D8-4874-A351-EFF472DFE080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F68FFDB-21D8-4874-A351-EFF472DFE080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F68FFDB-21D8-4874-A351-EFF472DFE080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F68FFDB-21D8-4874-A351-EFF472DFE080} = {4E80386E-05F3-43D7-9394-A9E35ECBF0BA}
 	EndGlobalSection
 EndGlobal

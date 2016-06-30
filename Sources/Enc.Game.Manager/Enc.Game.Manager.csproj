@@ -38,6 +38,9 @@
     <Compile Include="Clients\GameClient.cs" />
     <Compile Include="Clients\Parameters\GameCreateChooseSinglePostParams.cs" />
     <Compile Include="Helpers\CookiesHelper.cs" />
+    <Compile Include="Helpers\HttpClientDecorator.cs" />
+    <Compile Include="Interfaces\IHttpClientContainer.cs" />
+    <Compile Include="Interfaces\IHttpClientDecorator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Requests\WebRequestsFactory.cs" />
   </ItemGroup>

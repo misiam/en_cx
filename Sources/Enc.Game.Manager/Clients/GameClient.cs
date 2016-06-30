@@ -15,13 +15,9 @@ namespace Enc.Game.Manager.Clients
             this.Cookies = cookies;
         }
 
-        public string AppUrl { get; private set; }
         internal CookieContainer Cookies { get; private set; }
-        //protected virtual void SetCookies(CookieContainer cookies)
-        //{
-        //    this.Cookies = cookies;
-        //}
 
-        public HttpWebRequest Request {get;set;}
+        public string AppUrl { get; private set; }
+        public bool UseGzipEncoding { get; set; }
     }
 }

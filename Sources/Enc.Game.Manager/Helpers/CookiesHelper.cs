@@ -5,7 +5,7 @@ using System.Net;
 
 namespace Enc.Game.Manager.Helpers
 {
-    internal static class CookiesHelper
+    public static class CookiesHelper
     {
         public static CookieCollection GetAllCookies(this CookieContainer container)
         {

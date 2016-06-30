@@ -1,4 +1,5 @@
 ﻿using Enc.Game.Manager.Clients;
+using Enc.Game.Manager.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +29,8 @@ namespace Enc.Game.Manager.Requests
         public async Task Login(string user, string password)
         {
             var commonFuncClient = this.Create<CommonFunctionalityClient>();
-            HttpWebResponse response = await commonFuncClient.LoginPost(password, user);
-            //this.Cookies = commonFuncClient.Cookies;
+            IHttpClientContainer httpClient = await commonFuncClient.LoginPost(password, user);
+            HttpWebResponse response = httpClient.Response;
         }
 
         public HttpWebRequest Create(string requestParameters="")
